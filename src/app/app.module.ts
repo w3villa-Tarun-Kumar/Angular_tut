@@ -7,7 +7,8 @@ import { LoginComponent } from './login/login.component';
 import { FormsModule } from '@angular/forms';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations'; '@angular/form';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations'; '@angular/form'; 
+import { AdminModule } from './admin/admin.module'
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations'; 
   imports: [
     BrowserModule,
     FormsModule,
+    AdminModule,
     AppRoutingModule,
     BrowserAnimationsModule
   ],

@@ -1,5 +1,6 @@
 <app-header [title]="title"></app-header>
 
+<h1>{{title}}</h1>
 <app-login></app-login>
 
 <form #myfirstform="ngForm" (ngSubmit)="formsubmitfunction(myfirstform.value)" >
@@ -10,3 +11,7 @@
 </form>
 
 <app-footer></app-footer>
+
+<a routerLink="login">login</a><br>
+<a routerLink="list">list</a>
+<router-outlet></router-outlet>
