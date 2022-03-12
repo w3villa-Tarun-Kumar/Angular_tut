@@ -1,24 +1,5 @@
-<!--<app-header [title]="title"></app-header>
-
-<h1>{{title}}</h1>
-<app-login></app-login>
-
-<form #myfirstform="ngForm" (ngSubmit)="formsubmitfunction(myfirstform.value)" >
-
-    <input type="text" ngModel name="Fname" placeholder="First Name"/><br>
-    <input type="text" ngModel name="Lname" placeholder="Laast Name"/><br>
-    <button>Submit</button>
-</form>
-
-<app-footer></app-footer>-->
-<h1>Admin Panel</h1>
-<a routerLink="admin/login">login</a><br>
-<a routerLink="admin/list">list</a><br>
-<a routerLink="header">Header</a><br>
-<h1>User Panel</h1><br>
-<a routerLink="user/login">login</a><br>
-<a routerLink="user/list">list</a><br>
-
-
-
+<app-header [title]="title"></app-header>
+<div class="container ">
 <router-outlet></router-outlet>
+</div>
+<app-footer></app-footer>

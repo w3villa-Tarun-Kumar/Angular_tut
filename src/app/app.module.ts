@@ -9,7 +9,7 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations'; '@angular/form'; 
 import { AdminModule } from './admin/admin.module'
-import { MenuModule } from './header/menu.module'; './header/MenuModule'
+import { MenuModule } from './header/menu.module'; 
 
 @NgModule({
   declarations: [
