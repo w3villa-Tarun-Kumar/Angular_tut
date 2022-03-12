@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'tarun';
-  
+  data='i am from parent';
   formsubmitfunction(value:any){
     console.warn(value);
   }

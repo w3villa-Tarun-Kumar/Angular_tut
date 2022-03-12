@@ -10,12 +10,14 @@ import { FooterComponent } from './footer/footer.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations'; '@angular/form'; 
 import { AdminModule } from './admin/admin.module'
 import { MenuModule } from './header/menu.module'; 
+import { ChildComponent } from './child/child.component'
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
     HeaderComponent,
+    ChildComponent,
     FooterComponent
   ],
   imports: [

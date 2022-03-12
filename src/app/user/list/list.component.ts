@@ -8,7 +8,11 @@ import { Component, OnInit } from '@angular/core';
 export class ListComponent implements OnInit {
 
   constructor() { }
-
+  color='blue';
+  err=false;
+  togglecolor(){
+    this.err=!this.err;
+  }
   ngOnInit(): void {
   }
 
